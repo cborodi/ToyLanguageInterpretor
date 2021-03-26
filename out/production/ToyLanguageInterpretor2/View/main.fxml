@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.mainController">
+   <center>
+      <ListView fx:id="programListView" prefHeight="35.0" prefWidth="30.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Pane prefHeight="30.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Pane prefHeight="297.0" prefWidth="30.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="297.0" prefWidth="30.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <StackPane prefHeight="62.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="54.0" prefWidth="600.0">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Pane>
+            <Button fx:id="runButton" mnemonicParsing="false" onAction="#runInstance" prefHeight="25.0" prefWidth="335.0" text="Run" />
+         </children>
+      </StackPane>
+   </bottom>
+</BorderPane>
