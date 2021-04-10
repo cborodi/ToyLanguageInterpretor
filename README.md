@@ -2,19 +2,19 @@
 Toy language interpretor in Java.
 Step by step runs of predefined programs can be visualised on a GUI implemented using JavaFX. 
 
-Types:
+**Types:**
   - Bool Type
   - Int Type
   - Ref Type (Reference) 
   - String Type
 
-Values:
+**Values:**
   - Bool Value
   - Int Value
   - Ref Value (Reference) 
   - String Value
 
-Statements:
+**Statements:**
   - Assignment Statement
   - Compound Statement
   - If Statement
@@ -30,7 +30,7 @@ Statements:
   - Fork Statement
   - Write Heap Statement
 
-Expressions:
+**Expressions:**
   - Arithmetic Expression
   - Logic Expression
   - Value Expression
