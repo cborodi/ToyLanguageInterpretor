@@ -1,5 +1,6 @@
 # ToyLanguageInterpretor
-Toy language interpretor in Java
+Toy language interpretor in Java.
+Step by step runs of predefined programs can be visualised on a GUI implemented using JavaFX. 
 
 Types:
   - Bool Type
